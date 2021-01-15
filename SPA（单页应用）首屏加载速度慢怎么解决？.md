@@ -1,13 +1,4 @@
 ## 面试官：SPA（单页应用）首屏加载速度慢怎么解决？
-
-[Vue中文社区](javascript:void(0);) *今天*
-
-以下文章来源于JS每日一题 ，作者灰灰
-
-[![JS每日一题](http://wx.qlogo.cn/mmhead/Q3auHgzwzM5f6CJibIVb9cqqfsrz1ibfoQpsyxdYDtrE1LK3AYfvFl4w/0)**JS每日一题**每天一道经典前端面试题， 采用60秒语音答题模式（禁文字答题），群管理输出标准答案次日推送至群内供大家复盘参考，坚持做到事事有回音，题题有答案](https://mp.weixin.qq.com/s?__biz=MzIyMDkwODczNw==&mid=2247493080&idx=2&sn=e05e40b6e2b39a60a50a7aef47102936&chksm=97c67876a0b1f160589ca07353b9fac0e6b41b4885d402ca3a5453f27e54612f994195df55db&scene=126&sessionid=1607647581&key=53f955594eae8e1bf11cfa610c52ee0d7ddaf2825fc8f9fee2dfd5a07ea38c7d4076b3b6a20916874a5a0471f2a41fb802c93a3d932b252ae0323b3cab470e34f4cc3dc1de2c07d6e6f11bc3652781f51e3126e321c3da4190eabe54a051289ad832b7b5a2ec9953d2c86a93ae39d36c14bfe8ff7960dfa7fb9778c3fc331d46&ascene=1&uin=MTI2MDExMzc3MQ%3D%3D&devicetype=Windows+10+x64&version=63000039&lang=zh_CN&exportkey=AfzF2BAoMLTdTMmDxBpXOCc%3D&pass_ticket=Ffzh%2F3gIPDWX54dy%2Fb1xYOUgONTYfXcJQJ3bBeyX64bnKjgR9eku9ywGWDH35%2BqJ&wx_header=0&fontgear=2#)
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/gH31uF9VIibSTgK3iccibAVpO22icPkFkWFicqFnI322Y6FfmuT5mtzjtdwopmgN3AibexsmoHYbNNI5s6yqyjsaWx4A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 ## 一、什么是首屏加载 
 
 首屏时间（First Contentful Paint），指的是浏览器从响应用户输入网址地址，到首屏内容渲染完成的时间，此时整个网页不一定要全部渲染完成，但需要展示当前视窗需要的内容
@@ -172,6 +163,3 @@ SSR（Server side Render ），也就是服务端渲染，组件或页面通过�
 
 下图是更为全面的首屏优化的方案
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/gH31uF9VIibSTgK3iccibAVpO22icPkFkWFicLEYAnF4rBV6bhWTKHKPib0K5pHAD8DdVX44PEKEhkOx0CDYZriawkHFg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-大家可以根据自己项目的情况选择各种方式进行首屏渲染的优化
